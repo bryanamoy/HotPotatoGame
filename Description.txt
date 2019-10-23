@@ -1,0 +1,5 @@
+This project was to replicate a hot potato game with LEDs and pushbuttons.  This was programmed in Arduino using three
+Adafruit METRO M0 Express microcontrollers.  Players have a left and right push button to transfer the "hot potato."
+The 'hot potato' is represented as the LED that is currently turned on. The game begins with pressing the start push button
+which lights one of three players at random.  The time of game is set at random every game with a minimum of 20 seconds.
+The game ends when the current LED lit is blinking which in turn disables all players push buttons.
